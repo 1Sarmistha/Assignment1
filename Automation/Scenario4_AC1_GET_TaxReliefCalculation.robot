@@ -6,8 +6,8 @@ Library    Collections
 
 *** Variables ***
 ${Base_URL}     http://localhost:8080/
-${FilePath}     C://mama//GovTech//oppenheimer-project-dev//
-${FileName}     Document.CSV
+${FilePath}     ${CURDIR}${/}oppenheimer-project-dev${/}
+${FileName}     Document.csv
 
 *** Test Cases ***
 Simple Positive Testcase for TaxRelief check

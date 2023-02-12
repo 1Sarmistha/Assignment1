@@ -7,7 +7,7 @@ Suite Teardown  SeleniumLibrary.Close Browser
 ${BROWSER}      Chrome
 ${Base_URL}     http://localhost:8080/
 ${Upload_Button}    //input[@type='file']
-${FilePath}  C://mama//GovTech//oppenheimer-project-dev//
+${FilePath}  ${CURDIR}${/}oppenheimer-project-dev${/}
 ${FileName}  Document.csv
 
 *** Test Cases ***
